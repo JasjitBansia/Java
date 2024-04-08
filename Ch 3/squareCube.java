@@ -1,4 +1,4 @@
-class q6 {
+class squareCube {
     int square(int num) {
         return num * num;
     }
@@ -9,7 +9,7 @@ class q6 {
 
     public static void main(String[] args) {
         int num = 5;
-        q6 obj = new q6();
+        squareCube obj = new squareCube();
         int square = obj.square(num);
         int cube = obj.cube(num);
         System.out.println("The square of the number is " + square);

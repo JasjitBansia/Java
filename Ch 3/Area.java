@@ -1,6 +1,6 @@
 import java.util.*;
 
-class q1 {
+class Area {
     void area(double r) {
         double areaOfCircle = 3.14 * r * r;
         System.out.println("The area of the circle is " + areaOfCircle + " sq cm");
@@ -21,7 +21,7 @@ class q1 {
         double radius;
         int side, length, breadth;
         char choice;
-        q1 obj = new q1();
+        Area obj = new Area();
         System.out.print("Enter the choice ('c' - circle, 's' - square, 'r' - rectangle): ");
         choice = sc.next().toLowerCase().charAt(0);
         switch (choice) {

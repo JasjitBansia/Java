@@ -1,4 +1,4 @@
-public class q4 {
+public class Volume {
     int volume(int a) {
         int volumeOfCube = a * a * a;
         return volumeOfCube;
@@ -20,7 +20,7 @@ public class q4 {
         int length = 12;
         int breadth = 5;
         int height = 8;
-        q4 obj = new q4();
+        Volume obj = new Volume();
         int VC = obj.volume(side);
         double VS = obj.volume(radius);
         int VCd = obj.volume(length, breadth, height);
