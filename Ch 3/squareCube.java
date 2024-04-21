@@ -1,3 +1,9 @@
+/*
+ * i. Define methods to find the square of a number and cube of a number. The number must be passed to the method from the calling statement
+ * and computed result must be returned to calling module
+ * ii. Define a main() method to call the above square and cube methods
+ */
+
 class squareCube {
     int square(int num) {
         return num * num;

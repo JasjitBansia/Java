@@ -1,3 +1,12 @@
+/*
+ * Define a class salary as per the following specifications
+ * Data members = Name, Address, Phone, Subject Specialisation, Monthly Salary, Income tax
+ * Member methods:
+ * i. To accept the details of a teacher including the monthly salary
+ * ii. To display details of the teachers
+ * iii. To compute annual income tax as 5% of the annual salary above "1,75,000"
+ */
+
 import java.util.Scanner;;
 
 public class salary {

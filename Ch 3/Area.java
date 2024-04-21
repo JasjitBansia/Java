@@ -1,3 +1,11 @@
+/* 
+ * Write a program using a function called area() to compute the area of a: 
+  i. Circle (pi*r*r) 
+  ii. Square (side * side)
+  iii. Rectangle (length * breadth)
+  Display the menu to output the area as per the user's choice
+*/
+
 import java.util.*;
 
 class Area {

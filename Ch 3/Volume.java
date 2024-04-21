@@ -1,15 +1,22 @@
-public class Volume {
-    int volume(int a) {
+/*
+ * Write a class with the name "volume" using method overloading that computes the volume of a cube, a sphere and a cuboid
+ * Volume of a cube (VC) = a * a * a
+ * Volume of a cube (VS) = 4/3 * p * r³
+ * Volume of a cube (VCd) = l * b * h
+ */
+
+class volume {
+    int Volume(int a) {
         int volumeOfCube = a * a * a;
         return volumeOfCube;
     }
 
-    double volume(double r) {
+    double Volume(double r) {
         double volumeOfSphere = 4 / 3 * 3.14 * Math.pow(r, 3);
         return volumeOfSphere;
     }
 
-    int volume(int l, int b, int h) {
+    int Volume(int l, int b, int h) {
         int volumeOfCuboid = l * b * h;
         return volumeOfCuboid;
     }
@@ -20,10 +27,10 @@ public class Volume {
         int length = 12;
         int breadth = 5;
         int height = 8;
-        Volume obj = new Volume();
-        int VC = obj.volume(side);
-        double VS = obj.volume(radius);
-        int VCd = obj.volume(length, breadth, height);
+        volume obj = new volume();
+        int VC = obj.Volume(side);
+        double VS = obj.Volume(radius);
+        int VCd = obj.Volume(length, breadth, height);
         System.out.println("The volume of the cube is " + VC + " cm cube");
         System.out.println("The volume of the sphere is " + VS + " cm cube");
         System.out.println("The volume of the cuboid is " + VCd + " cm cube");
