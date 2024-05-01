@@ -17,17 +17,25 @@ class overloading {
         System.out.println("The sum of the first series is " + sum);
     }
 
+    void series(int p) {
+        for (int i = 1; i <= p; i++) {
+            System.out.print((int) (Math.pow(i, 3) - 1) + ", ");
+        }
+    }
+
     void series() {
         double sum = 0.0;
         for (int i = 2; i <= 10; i++) {
             sum += (double) 1 / i;
         }
+        System.out.println();
         System.out.println("The sum of the third series is " + sum);
     }
 
     public static void main(String args[]) {
         overloading obj = new overloading();
         obj.series(5, 4);
+        obj.series(10);
         obj.series();
     }
 }
