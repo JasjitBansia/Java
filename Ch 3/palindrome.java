@@ -24,7 +24,6 @@ public class palindrome {
         num = sc.nextInt();
         sc.close();
         int reversedNum = reverse(num);
-        System.out.println(reversedNum);
         if (num == reversedNum) {
             System.out.println(num + " is a palindrome");
         } else {
