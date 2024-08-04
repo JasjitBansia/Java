@@ -68,7 +68,7 @@ class Ticket {
     }
 
     public static void main(String[] args) {
-        Ticket obj = new Ticket(0, "d");
+        Ticket obj = new Ticket(0, "");
         obj.input();
 
     }
