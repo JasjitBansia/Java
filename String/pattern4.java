@@ -4,7 +4,7 @@
  * L L 
  * U U U 
  * E E E E 
- * J J J J
+ * J J J J J
  */
 
 class pattern4 {
