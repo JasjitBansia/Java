@@ -12,6 +12,6 @@ class lastWord {
         sc.close();
         int lastSpace = str.lastIndexOf(' ');
         String lastWord = str.substring(lastSpace + 1);
-        System.out.println(lastWord);
+        System.out.println("Last Word: " + lastWord);
     }
 }
