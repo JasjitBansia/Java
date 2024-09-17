@@ -12,6 +12,7 @@ class wordFrequency {
         String str = sc.nextLine();
         System.out.print("Enter the word to search in the entered string: ");
         String word = sc.nextLine();
+        str = " " + str;
         sc.close();
         int frequency = 0;
         int index;
